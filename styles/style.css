@@ -1,0 +1,66 @@
+/* -----------------------------------------------Google Fonts----------------------------------------------------------- */
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+
+/* -----------------------------------------------Common Styles----------------------------------------------------------- */
+body {
+    font-family: 'Poppins', sans-serif;
+    margin: 0 auto;
+}
+
+.button {
+    text-decoration: none;
+    font-size: 20px;
+    color: #FFFFFF;
+    background: #DD0000;
+    border-radius: 5px;
+    padding: 16px 25px;
+    font-weight: 400;
+}
+
+
+/* -----------------------------------------------Banner Section Styles----------------------------------------------------------- */
+
+.banner {
+    margin: 50px 140px;
+    border-radius: 30px;
+    background-color: #161616;
+height: 585px;
+    display: flex;
+}
+
+.banner-info {
+    margin: 111px 12px 111px 105px;
+    width: 50%;
+}
+
+.banner-heading {
+    font-weight: 700;
+    font-size: 70px;
+    color: #FFFFFF;
+    margin-top: 0;
+    margin-bottom: 20px;
+    line-height: 80px;
+}
+
+.banner-text {
+    font-weight: 400;
+    font-size: 16px;
+    color: #FFFFFF;
+    margin-bottom: 30px;
+    line-height: 26px;
+}
+
+.button i {
+    margin-left: 10px;
+}
+
+.banner-image {
+    width: 50%;
+    margin: 33px 80px 0 12px;
+
+}
+
+.banner-image img {
+    width: 100%;
+}

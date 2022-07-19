@@ -12,11 +12,12 @@ body {
     text-decoration: none;
     font-size: 20px;
     color: #FFFFFF;
-    background: #DD0000;
+    background-color: #DD0000;
     border-radius: 5px;
     padding: 16px 25px;
     font-weight: 400;
 }
+
 
 
 /* -----------------------------------------------Banner Section Styles----------------------------------------------------------- */
@@ -25,7 +26,6 @@ body {
     margin: 50px 140px;
     border-radius: 30px;
     background-color: #161616;
-height: 585px;
     display: flex;
 }
 
@@ -63,4 +63,97 @@ height: 585px;
 
 .banner-image img {
     width: 100%;
+    height: 100%;
+}
+
+
+
+/* -----------------------------------------------Blog Section Styles----------------------------------------------------------- */
+
+.blog-section {
+    margin: 100px 140px 50px 140px;
+    border-radius: 30px;
+    display: grid;
+    grid-template-columns: 1fr 3fr;
+}
+
+.blog-section aside {
+    background: #161616;
+    border-radius: 10px;
+    width: 312px;
+}
+
+.blog-buttons {
+    display: flex;
+    flex-direction: column;
+    margin: 30px;
+}
+
+.blog-button {
+    text-decoration: none;
+    text-align: center;
+    color: #161616;
+    background-color: #FFFFFF;
+    border-radius: 10px;
+    font-weight: 600;
+    font-size: 20px;
+    padding: 17px;
+    margin-bottom: 30px;
+}
+
+#blog-button-active {
+    text-decoration: none;
+    text-align: center;
+    color: #FFFFFF;
+    background-color: #DD0000;
+    border-radius: 10px;
+    font-weight: 600;
+    font-size: 20px;
+    padding: 17px;
+}
+
+.blogs {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-row-gap: 24px;
+    grid-column-gap: 24px;
+    margin-left: 24px;
+
+}
+
+.blog {
+    border: 1px solid #E8E8E8;
+    border-radius: 10px;
+}
+
+.blog-details {
+    margin: 20px;
+}
+
+.blog-details a {
+    text-decoration: none;
+    font-weight: 500;
+    font-size: 16px;
+    color: #161616;
+    padding: 4px 16px;
+    border: 1px solid #161616;
+    border-radius: 5px;
+    margin-bottom: 16px;
+}
+
+.blog-title {
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 27px;
+    color: #161616;
+    margin-bottom: 20px;
+}
+
+.time-comments {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+
+.time-comments span {
+    margin-left: 10px;
 }

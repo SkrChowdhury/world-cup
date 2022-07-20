@@ -179,6 +179,12 @@ body {
     margin-bottom: 16px;
 }
 
+.blog-details a:hover {
+
+    color: #eeeee4;
+    background-color: #161616;
+}
+
 .blog-title {
     font-weight: 600;
     font-size: 18px;
@@ -289,11 +295,6 @@ body {
 }
 
 
-
-
-
-
-
 /* -----------------------------------------------
                 Footer Styles
 ----------------------------------------------------------- */
@@ -334,6 +335,12 @@ footer hr {
     margin: 25px;
 }
 
+.footer-links a:hover {
+
+    color: #FFFFFF;
+
+}
+
 .social-links {
     display: flex;
     justify-content: center;
@@ -351,7 +358,6 @@ footer hr {
 .social-links a:hover {
     color: #FFFFFF;
 }
-
 
 
 
@@ -412,9 +418,7 @@ footer hr {
     .banner-image {
         width: auto;
         margin-top: 0;
-
     }
-
 
     .banner-image img {
         width: auto;
@@ -452,7 +456,7 @@ footer hr {
 
 
     /* --------------------------------------------- 
-                        Group Styles Medium Device
+                        Group Styles Small Device
             -----------------------------------------------*/
 
     .groups {
@@ -466,12 +470,20 @@ footer hr {
     }
 
     /* ----------------------------------------------
-                             Match Styles Medium Device
+                             Match Styles Small Device
             ---------------------------------------------------*/
     .matches {
         display: grid;
         grid-template-columns: repeat(1, 1fr);
-        margin: 0 auto;
+        margin: 0px 20px;
+    }
+
+    .match {
+        width: 80%;
+    }
+
+    .match-images {
+        justify-content: center;
     }
 
     /* -----------------------------------------------
@@ -489,14 +501,10 @@ footer hr {
     .footer-links a {
         margin-bottom: 20px;
     }
-
-
-
-
 }
 
 
-@media only screen and (min-width:768px) and (max-width:1024px) {
+@media only screen and (min-width:768px) and (max-width:1180px) {
 
 
     /* --------------------------------------------
@@ -610,8 +618,33 @@ footer hr {
         width: 100%;
     }
 
+
+
     .all-blogs .button {
         display: block;
+    }
+
+
+    /* --------------------------------------------- 
+                        Group Styles Medium Device
+            -----------------------------------------------*/
+
+    .groups {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    .teams img {
+        width: 70%;
+    }
+
+    /* ----------------------------------------------
+                             Match Styles Medium Device
+            ---------------------------------------------------*/
+    .matches {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        justify-items: center;
     }
 
 
@@ -633,26 +666,6 @@ footer hr {
     }
 
 
-    /* --------------------------------------------- 
-                Group Styles Medium Device
-    -----------------------------------------------*/
 
-    .groups {
-        display: grid;
-        grid-template-columns: repeat(2, 1fr);
-    }
-
-    .teams img {
-        width: 70%;
-    }
-
-    /* ----------------------------------------------
-                     Match Styles Medium Device
-    ---------------------------------------------------*/
-    .matches {
-        display: grid;
-        grid-template-columns: repeat(2, 1fr);
-        justify-items: center;
-    }
 
 }

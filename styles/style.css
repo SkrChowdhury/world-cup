@@ -297,3 +297,15 @@ footer hr {
     color: #B9B9B9;
     margin-left: 50px;
 }
+
+
+
+
+/* -----------------------------------------------
+                Media Queries
+----------------------------------------------------------- */
+
+@media only screen and (max-width:688px) {}
+
+
+@media only screen and (min-width:689px) and (max-width:992px) {}

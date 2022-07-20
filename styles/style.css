@@ -412,7 +412,7 @@ footer hr {
     .banner-image {
         width: auto;
         margin-top: 0;
-      
+
     }
 
 
@@ -450,6 +450,30 @@ footer hr {
         width: 100%;
     }
 
+
+    /* --------------------------------------------- 
+                        Group Styles Medium Device
+            -----------------------------------------------*/
+
+    .groups {
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        margin: 0px;
+    }
+
+    .teams img {
+        width: 70%;
+    }
+
+    /* ----------------------------------------------
+                             Match Styles Medium Device
+            ---------------------------------------------------*/
+    .matches {
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        margin: 0 auto;
+    }
+
     /* -----------------------------------------------
                            Footer Style  Small Device
             -------------------------------------------------*/
@@ -465,6 +489,9 @@ footer hr {
     .footer-links a {
         margin-bottom: 20px;
     }
+
+
+
 
 }
 

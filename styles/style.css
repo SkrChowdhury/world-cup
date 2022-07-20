@@ -22,6 +22,11 @@ body {
     font-weight: 400;
 }
 
+#button-bg {
+    background-color: #DD0000;
+    color: #FFFFFF;
+}
+
 
 
 /* -----------------------------------------------
@@ -113,17 +118,6 @@ body {
     margin-bottom: 30px;
 }
 
-#blog-button-active {
-    text-decoration: none;
-    text-align: center;
-    color: #FFFFFF;
-    background-color: #DD0000;
-    border-radius: 10px;
-    font-weight: 600;
-    font-size: 20px;
-    padding: 17px;
-}
-
 .blogs {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
@@ -171,6 +165,98 @@ body {
 }
 
 
+/* -----------------------------------------------
+                Match HTML  Styles
+----------------------------------------------------------- */
+
+.matches {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-row-gap: 24px;
+    grid-column-gap: 24px;
+    margin-left: 24px;
+    justify-items: center;
+}
+
+.match {
+    border: 1px solid #E8E8E8;
+    border-radius: 10px;
+    padding: 50px 30px;
+    text-align: center;
+}
+
+.match-images {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.match-images span {
+    margin-left: 10px;
+    margin-right: 10px;
+    font-weight: 700;
+}
+
+.match-details span {
+    font-size: 16px;
+    color: #4D4D4D;
+    ;
+}
+
+
+
+/* -----------------------------------------------
+                Groups HTML  Styles
+----------------------------------------------------------- */
+
+.groups {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-row-gap: 24px;
+    grid-column-gap: 24px;
+    margin-left: 24px;
+    justify-items: center;
+
+
+    align-items: center;
+}
+
+.group {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    padding: 20px;
+    border: 1px solid #E8E8E8;
+    border-radius: 20px;
+    box-shadow: 1px 1px #4d4d4d4b;
+}
+
+.group>span {
+    font-weight: 600;
+    margin-bottom: 10px;
+    color: #8a1538;
+}
+
+.teams {
+    display: grid;
+    grid-template-columns: 1fr 1fr 3fr;
+    padding: 10px;
+    background-color: #eeeee4;
+    margin: 5px;
+    border-radius: 20px;
+    align-items: center;
+    box-shadow: 1px 1px #4d4d4d4b;
+}
+
+.teams img {
+    width: 50%;
+}
+
+
+
+
+
+
 
 /* -----------------------------------------------
                 Footer Styles
@@ -178,6 +264,7 @@ body {
 
 footer {
     background: #161616;
+    margin-top: 100px;
 }
 
 .footer-text {
@@ -191,7 +278,7 @@ footer {
 }
 
 footer hr {
-    color: rgba(255, 255, 255, 0.1);
+    border: 1px solid rgba(255, 255, 255, 0.1);
     width: 80%;
     margin-bottom: 50px;
 }

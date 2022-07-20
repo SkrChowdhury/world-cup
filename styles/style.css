@@ -258,8 +258,6 @@ body {
     grid-column-gap: 24px;
     margin-left: 24px;
     justify-items: center;
-
-
     align-items: center;
 }
 
@@ -632,6 +630,7 @@ footer hr {
     .groups {
         display: grid;
         grid-template-columns: repeat(2, 1fr);
+        margin: 0;
     }
 
     .teams img {
@@ -645,6 +644,7 @@ footer hr {
         display: grid;
         grid-template-columns: repeat(2, 1fr);
         justify-items: center;
+        margin: 0;
     }
 
 

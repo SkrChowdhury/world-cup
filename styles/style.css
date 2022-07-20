@@ -22,9 +22,36 @@ body {
     font-weight: 400;
 }
 
+.button:hover {
+    background-color: #b40808;
+    color: #FFFFFF;
+}
+
 #button-bg {
     background-color: #DD0000;
     color: #FFFFFF;
+}
+
+
+@keyframes heading {
+    from {
+        font-weight: 700;
+        font-size: 70px;
+        margin-top: 0;
+        margin-bottom: 20px;
+        line-height: 80px;
+        background: -webkit-linear-gradient(#F6DC36, #1A9854);
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+    }
+
+    to {
+        background: -webkit-linear-gradient(#F6DC36, #1A9854);
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+        font-size: 72px;
+        font-weight: 900;
+    }
 }
 
 
@@ -34,12 +61,11 @@ body {
 ----------------------------------------------------------- */
 
 .banner {
-    margin: 50px 140px 50px 100px;
+    margin: 50px 100px;
     border-radius: 30px;
     background-color: #161616;
     display: flex;
-    width: 1321px;
-    align-self: center;
+
 }
 
 .banner-info {
@@ -54,7 +80,10 @@ body {
     margin-top: 0;
     margin-bottom: 20px;
     line-height: 80px;
+    animation: heading 2s linear 0.5s infinite alternate;
+    animation-play-state: running;
 }
+
 
 .banner-text {
     font-weight: 400;
@@ -86,18 +115,19 @@ body {
 ----------------------------------------------------------- */
 
 .blog-section {
-    margin: 100px 140px 50px 140px;
-    border-radius: 30px;
+    margin: 100px;
+}
+
+.all-blogs {
     display: grid;
     grid-template-columns: 1fr 3fr;
-    justify-content: center;
 }
 
 .blog-section aside {
     background: #161616;
     border-radius: 10px;
-    width: 312px;
     height: 312px;
+    width: 312px;
 }
 
 .blog-buttons {
@@ -118,6 +148,7 @@ body {
     margin-bottom: 30px;
 }
 
+
 .blogs {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
@@ -131,6 +162,7 @@ body {
     border: 1px solid #E8E8E8;
     border-radius: 10px;
 }
+
 
 .blog-details {
     margin: 20px;
@@ -287,7 +319,7 @@ footer hr {
 .footer-links {
     display: flex;
     justify-content: center;
-    padding-bottom: 130px;
+    padding-bottom: 30px;
 }
 
 .footer-links a {
@@ -296,6 +328,24 @@ footer hr {
     font-size: 16px;
     color: #B9B9B9;
     margin-left: 50px;
+}
+
+.social-links {
+    display: flex;
+    justify-content: center;
+    padding-bottom: 50px;
+
+}
+
+.social-links a {
+    text-decoration: none;
+    color: wheat;
+    font-size: 40px;
+    margin: 20px;
+}
+
+.social-links a:hover {
+    color: #FFFFFF;
 }
 
 

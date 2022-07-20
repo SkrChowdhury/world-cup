@@ -196,6 +196,10 @@ body {
     margin-left: 10px;
 }
 
+.all-blogs .button {
+    display: none;
+}
+
 
 /* -----------------------------------------------
                 Match HTML  Styles
@@ -358,4 +362,165 @@ footer hr {
 @media only screen and (max-width:688px) {}
 
 
-@media only screen and (min-width:689px) and (max-width:992px) {}
+@media only screen and (min-width:689px) and (max-width:992px) {
+
+
+    /* Common Styles */
+    .button {
+        text-decoration: none;
+        font-size: 20px;
+        color: #FFFFFF;
+        background-color: #DD0000;
+        border-radius: 5px;
+        padding: 12px 15px;
+        font-weight: 400;
+    }
+
+    @keyframes heading {
+        from {
+            font-weight: 700;
+            font-size: 40px;
+            line-height: 50px;
+            margin-bottom: 20px;
+            background: -webkit-linear-gradient(#F6DC36, #1A9854);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+        }
+
+        to {
+            background: -webkit-linear-gradient(#F6DC36, #1A9854);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+            font-size: 43px;
+            font-weight: 900;
+        }
+    }
+
+    /* Banner Section  */
+
+    .banner {
+        margin: 50px;
+        border-radius: 30px;
+        background-color: #161616;
+        display: flex;
+
+    }
+
+    .banner-info {
+        margin: 111px 12px 111px 105px;
+        width: 50%;
+    }
+
+    .banner-heading {
+        font-weight: 700;
+        font-size: 40px;
+        line-height: 50px;
+        color: #FFFFFF;
+        margin-top: 0;
+        margin-bottom: 20px;
+        animation: heading 2s linear 0.5s infinite alternate;
+        animation-play-state: running;
+    }
+
+    .banner-text {
+        font-weight: 400;
+        font-size: 14px;
+        line-height: 24px;
+    }
+
+    .banner-image {
+        width: 50%;
+
+    }
+
+    /* Blog Section  */
+
+    .all-blogs {
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        justify-content: center;
+    }
+
+    .blog-section aside {
+        width: 100%;
+        background-color: #FFFFFF;
+        height: auto;
+    }
+
+    .blog-buttons {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+    }
+
+    .blog-button {
+        border: 1px solid #E8E8E8;
+        font-weight: 500;
+        font-size: 20px;
+        line-height: 30px;
+        padding: 17px 0;
+        margin-left: 22px;
+    }
+
+    .blogs {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    .all-blogs .button {
+        display: block;
+    }
+
+
+    /* Footer Style  */
+
+    .footer-links {
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    .footer-links a {
+        margin-bottom: 20px;
+    }
+
+
+    /* Group Styles  */
+
+        .groups {
+            display: grid;
+            grid-template-columns: repeat(2, 1fr);
+            justify-items: center;
+    
+        }
+    
+        .group {
+            /* display: flex;
+            flex-direction: column;
+            text-align: center;
+            padding: 20px;
+            border: 1px solid #E8E8E8;
+            border-radius: 20px;
+            box-shadow: 1px 1px #4d4d4d4b; */
+        }
+    
+        .group>span {
+            /* font-weight: 600;
+            margin-bottom: 10px;
+            color: #8a1538; */
+        }
+    
+        .teams {
+            /* display: grid;
+            grid-template-columns: 1fr 1fr 3fr;
+            padding: 10px;
+            background-color: #eeeee4;
+            margin: 5px;
+            border-radius: 20px;
+            align-items: center;
+            box-shadow: 1px 1px #4d4d4d4b; */
+        }
+    
+        .teams img {
+            /* width: 50%; */
+        }
+
+}

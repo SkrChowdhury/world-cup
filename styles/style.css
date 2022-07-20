@@ -1,8 +1,12 @@
-/* -----------------------------------------------Google Fonts----------------------------------------------------------- */
+/* -----------------------------------------------
+                    Google Fonts
+----------------------------------------------------------- */
 @import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
 
 
-/* -----------------------------------------------Common Styles----------------------------------------------------------- */
+/* -----------------------------------------------
+                  Common Styles
+----------------------------------------------------------- */
 body {
     font-family: 'Poppins', sans-serif;
     margin: 0 auto;
@@ -20,7 +24,9 @@ body {
 
 
 
-/* -----------------------------------------------Banner Section Styles----------------------------------------------------------- */
+/* -----------------------------------------------
+              Banner Section Styles
+----------------------------------------------------------- */
 
 .banner {
     margin: 50px 140px 50px 100px;
@@ -70,7 +76,9 @@ body {
 
 
 
-/* -----------------------------------------------Blog Section Styles----------------------------------------------------------- */
+/* -----------------------------------------------
+                Blog Section Styles
+----------------------------------------------------------- */
 
 .blog-section {
     margin: 100px 140px 50px 140px;
@@ -160,4 +168,45 @@ body {
 
 .time-comments span {
     margin-left: 10px;
+}
+
+
+
+/* -----------------------------------------------
+                Footer Styles
+----------------------------------------------------------- */
+
+footer {
+    background: #161616;
+}
+
+.footer-text {
+    font-weight: 600;
+    font-size: 40px;
+    line-height: 60px;
+    text-align: center;
+    color: #FFFFFF;
+    padding-top: 130px;
+    margin-bottom: 50px;
+}
+
+footer hr {
+    color: rgba(255, 255, 255, 0.1);
+    width: 80%;
+    margin-bottom: 50px;
+}
+
+
+.footer-links {
+    display: flex;
+    justify-content: center;
+    padding-bottom: 130px;
+}
+
+.footer-links a {
+    text-decoration: none;
+    font-weight: 500;
+    font-size: 16px;
+    color: #B9B9B9;
+    margin-left: 50px;
 }

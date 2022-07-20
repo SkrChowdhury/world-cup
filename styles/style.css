@@ -359,13 +359,20 @@ footer hr {
                 Media Queries
 ----------------------------------------------------------- */
 
-@media only screen and (max-width:688px) {}
+@media only screen and (max-width:688px) {
+
+
+
+    
+}
 
 
 @media only screen and (min-width:689px) and (max-width:992px) {
 
 
-    /* Common Styles */
+    /* --------------------------------------------
+                         Common Styles 
+    -------------------------------------------------*/
     .button {
         text-decoration: none;
         font-size: 20px;
@@ -396,7 +403,9 @@ footer hr {
         }
     }
 
-    /* Banner Section  */
+    /* ----------------------------------------------
+                Banner Section
+    ------------------------------------------------*/
 
     .banner {
         margin: 50px;
@@ -433,7 +442,9 @@ footer hr {
 
     }
 
-    /* Blog Section  */
+    /* ---------------------------------------------
+                      Blog Section  
+    -------------------------------------------------*/
 
     .all-blogs {
         display: grid;
@@ -455,7 +466,7 @@ footer hr {
     .blog-button {
         border: 1px solid #E8E8E8;
         font-weight: 500;
-        font-size: 20px;
+        font-size: 16px;
         line-height: 30px;
         padding: 17px 0;
         margin-left: 22px;
@@ -471,7 +482,9 @@ footer hr {
     }
 
 
-    /* Footer Style  */
+    /* -----------------------------------------------
+                   Footer Style  
+    -------------------------------------------------*/
 
     .footer-links {
         display: flex;
@@ -483,44 +496,26 @@ footer hr {
     }
 
 
-    /* Group Styles  */
+    /* --------------------------------------------- 
+                          Group Styles  
+    -----------------------------------------------*/
 
-        .groups {
-            display: grid;
-            grid-template-columns: repeat(2, 1fr);
-            justify-items: center;
-    
-        }
-    
-        .group {
-            /* display: flex;
-            flex-direction: column;
-            text-align: center;
-            padding: 20px;
-            border: 1px solid #E8E8E8;
-            border-radius: 20px;
-            box-shadow: 1px 1px #4d4d4d4b; */
-        }
-    
-        .group>span {
-            /* font-weight: 600;
-            margin-bottom: 10px;
-            color: #8a1538; */
-        }
-    
-        .teams {
-            /* display: grid;
-            grid-template-columns: 1fr 1fr 3fr;
-            padding: 10px;
-            background-color: #eeeee4;
-            margin: 5px;
-            border-radius: 20px;
-            align-items: center;
-            box-shadow: 1px 1px #4d4d4d4b; */
-        }
-    
-        .teams img {
-            /* width: 50%; */
-        }
+    .groups {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    .teams img {
+        width: 70%;
+    }
+
+    /* ----------------------------------------------
+                     Match Styles  
+    ---------------------------------------------------*/
+    .matches {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        justify-items: center;
+    }
 
 }
